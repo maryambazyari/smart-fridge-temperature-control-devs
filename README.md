@@ -72,5 +72,3 @@ The output log contains atomic model state traces for:
 Scripts are included for reproducibility:
 - `scripts/run_simulation.bat` (Windows)
 - `scripts/run_simulation.sh` (Git Bash / MSYS2 / Unix-like shell)
-
-Note: The repository already includes a saved simulation output log, so the scripts do not need to be executed again for submission evidence unless you want to regenerate the output.
