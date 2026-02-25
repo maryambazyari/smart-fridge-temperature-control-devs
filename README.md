@@ -52,3 +52,25 @@ cd build
 /c/msys64/ucrt64/bin/cmake.exe -G "MinGW Makefiles" ..
 mingw32-make -j1
 ./smart_fridge.exe
+
+
+## Input / Parameters
+This baseline smart fridge simulation does not require external input files.
+The initial temperature, hysteresis thresholds, and warming/cooling rates are defined in `cadmium_generated/main.cpp` and the model header files.
+
+## Output
+A sample simulation execution log is included at:
+
+`cadmium_generated/simulation_results/simulation_result.txt`
+
+The output log contains atomic model state traces for:
+- TempSensor (TS)
+- Controller (CTRL)
+- Compressor (COMP)
+
+## Run Scripts
+Scripts are included for reproducibility:
+- `scripts/run_simulation.bat` (Windows)
+- `scripts/run_simulation.sh` (Git Bash / MSYS2 / Unix-like shell)
+
+Note: The repository already includes a saved simulation output log, so the scripts do not need to be executed again for submission evidence unless you want to regenerate the output.
