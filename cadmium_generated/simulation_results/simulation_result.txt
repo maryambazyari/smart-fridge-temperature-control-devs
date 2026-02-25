@@ -1,0 +1,112 @@
+State for model TS is {T:8, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:false, last_cmd:CMD_OFF, last_temp:0}
+State for model COMP is {mode:COOLING_OFF, output_pending:true}
+State for model TS is {T:8, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:false, last_cmd:CMD_OFF, last_temp:0}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:8.4, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:true, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:8}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:8.4, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:8}
+State for model COMP is {mode:COOLING_ON, output_pending:true}
+State for model TS is {T:8.4, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:8}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:7.8, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:8.4}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:7.2, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:7.8}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:6.6, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:7.2}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:6, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:6.6}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:5.4, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:6}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:4.8, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:5.4}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:4.2, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:4.8}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:3.6, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:4.2}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:3, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:3.6}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:2.4, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:3}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:1.8, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:2.4}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:1.2, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:true, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:1.8}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:1.2, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:1.8}
+State for model COMP is {mode:COOLING_OFF, output_pending:true}
+State for model TS is {T:1.2, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:1.8}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:1.6, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:1.2}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:2, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:1.6}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:2.4, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:2}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:2.8, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:2.4}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:3.2, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:2.8}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:3.6, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:3.2}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:4, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:3.6}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:4.4, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:4}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:4.8, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:4.4}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:5.2, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:4.8}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:5.6, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:5.2}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:6, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_OFF, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_OFF, last_temp:5.6}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:6.4, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:true, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:6}
+State for model COMP is {mode:COOLING_OFF, output_pending:false}
+State for model TS is {T:6.4, cooling_on:false, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:6}
+State for model COMP is {mode:COOLING_ON, output_pending:true}
+State for model TS is {T:6.4, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:6}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:5.8, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:6.4}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:5.2, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:5.8}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+State for model TS is {T:4.6, cooling_on:true, pending_disturbance:0}
+State for model CTRL is {command_pending:false, pending_cmd:CMD_ON, alarm_pending:false, has_last_cmd:true, last_cmd:CMD_ON, last_temp:5.2}
+State for model COMP is {mode:COOLING_ON, output_pending:false}
+[0mSimulation finished.
