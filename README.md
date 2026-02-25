@@ -1,40 +1,54 @@
-\# Smart Fridge Temperature Control (DEVS)
+# Smart Fridge Temperature Control DEVS Model
 
+## Project Overview
+This repository contains a DEVS-based smart fridge temperature control system implemented in C++ using the Cadmium simulator.
 
+The model includes:
+- **TempSensor (TS)**: periodically outputs fridge temperature
+- **Controller (CTRL)**: applies hysteresis control and generates ON/OFF compressor commands
+- **Compressor (COMP)**: receives commands and returns cooling status feedback
 
+The system is organized hierarchically and includes:
+- atomic model implementations
+- DEVS-Graph artifacts (JSON exports)
+- screenshots of DEVS-Graph diagrams
+- simulation execution results
+- final report document
 
+---
 
-This project contains DEVS-Graph models for a smart fridge temperature control system, including atomic and coupled models.
+## Repository Structure
 
+- `cadmium_generated/` : Cadmium C++ source files and CMake build configuration
+- `cadmium_generated/simulation_results/` : simulation output log(s)
+- `devs_graph/` : DEVS-Graph JSON model files
+- `docs/` : final report document
+- `screenshots/` : DEVS-Graph screenshots (and optional build/run screenshots)
+- `scripts/` : helper scripts to build and run the simulation
+- `README.md` : project instructions and notes
 
+---
 
-\## Models
+## Core Files (Cadmium Implementation)
 
-\- TempSensor (TS)
+Inside `cadmium_generated/`:
+- `TempSensor.hpp`
+- `Controller.hpp`
+- `Compressor.hpp`
+- `message_types.hpp`
+- `main.cpp`
+- `CMakeLists.txt`
 
-\- Controller (CTRL)
+---
 
-\- Compressor (COMP)
+## Build and Run (MSYS2 UCRT64)
 
-\- FridgeControlService (FCS)
-
-\- SmartFridgeSystem (SFS)
-
-
-
-\## Repository Structure
-
-\- `screenshots/` : exported model diagrams
-
-\- `devs\_graph/` : JSON files exported from DEVS-Graph
-
-\- `docs/` : assignment statement, manuals, lectures, and related files
-
-\- `report/` : Part II and Part III reports
-
-\- `cadmium\_generated/` : code generated from DEVS-Graph
-
-\- `inputs/` : simulation input files
-
-\- `logs/` : simulation outputs (e.g., messages.csv)
-
+### Manual commands (used in development)
+```bash
+cd cadmium_generated
+rm -rf build
+mkdir build
+cd build
+/c/msys64/ucrt64/bin/cmake.exe -G "MinGW Makefiles" ..
+mingw32-make -j1
+./smart_fridge.exe
