@@ -1,0 +1,22 @@
+{ "class": "GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+{"text":"TS","figure":"Rectangle","size":"90 65","fill":"orange","key":-1,"loc":"-355 -4.5","group":-7},
+{"text":"CTRL","figure":"Rectangle","size":"90 65","fill":"orange","key":-2,"loc":"-155 -4.5","group":-7},
+{"text":"COMP","figure":"Rectangle","size":"90 65","fill":"orange","key":-3,"loc":"45 -4.5","group":-7},
+{"text":"disturbance_in","figure":"Rectangle","size":"90 65","fill":"orange","key":-4,"loc":"-585 -4.5","group":-7},
+{"text":"temp_out","figure":"Square","size":"62 65","fill":"pink","key":-5,"loc":"245 95.5","group":-7},
+{"text":"status_out","figure":"Square","size":"62 65","fill":"pink","key":-6,"loc":"245 -4.5","group":-7},
+{"text":"FridgeControlService","isGroup":true,"color":"black","I":[],"O":[],"key":-7}
+],
+  "linkDataArray": [
+{"points":[-310,-4.5,-300,-4.5,-255,-4.5,-255,-4.5,-210,-4.5,-200,-4.5],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-1,"to":-2,"fromPort":"R","toPort":"L"},
+{"points":[-110,-4.5,-100,-4.5,-55,-4.5,-55,-4.5,-10,-4.5,0,-4.5],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-2,"to":-3,"fromPort":"R","toPort":"L"},
+{"points":[45,-37,45,-47,45,-65,-355,-65,-355,-47,-355,-37],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-3,"to":-1,"fromPort":"T","toPort":"T"},
+{"points":[-540,-4.5,-530,-4.5,-470,-4.5,-470,-4.5,-410,-4.5,-400,-4.5],"color":"black","from":-4,"to":-1,"fromPort":"R","toPort":"L","label":"disturbance_in"},
+{"points":[-355,28,-355,38,-355,95.5,-75.5,95.5,204,95.5,214,95.5],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-1,"to":-5,"fromPort":"B","toPort":"L"},
+{"points":[90,-4.5,100,-4.5,152,-4.5,152,-4.5,204,-4.5,214,-4.5],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-3,"to":-6,"fromPort":"R","toPort":"L"}
+]}

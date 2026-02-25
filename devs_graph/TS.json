@@ -1,0 +1,17 @@
+{ "class": "GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+{"text":"cooling_status_in","figure":"Rectangle","size":"163 76","fill":"orange","key":-2,"loc":"-410 0"},
+{"text":"temp_out","figure":"Square","size":"62 65","fill":"pink","key":-3,"loc":"540 0"},
+{"text":"EMIT\nTa=0","figure":"Ellipse","size":"103 102","fill":"white","key":-4,"loc":"310 0"},
+{"text":"WAIT\nTa=1","figure":"Ellipse","size":"103 102","fill":"white","key":-5,"loc":"-100 0"}
+],
+  "linkDataArray": [
+{"from":-2,"to":-5,"fromPort":"R","toPort":"L","points":[-328.5,0,-318.5,0,-240,0,-240,0,-161.5,0,-151.5,0],"label":"set cooling state"},
+{"points":[-48.5,0,-38.5,0,105,0,105,0,248.5,0,258.5,0],"dash_array":[6,3],"from":-5,"to":-4,"fromPort":"R","toPort":"L","label":"internal transition / update T"},
+{"points":[361.5,0,371.5,0,435.25,0,435.25,0,499,0,509,0],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-4,"to":-3,"fromPort":"R","toPort":"L"},
+{"points":[310,-51,310,-61,310,-83.75053609332701,-100,-83.75053609332701,-100,-61,-100,-51],"dash_array":[6,3],"from":-4,"to":-5,"fromPort":"T","toPort":"T","label":"schedule next sample"}
+]}

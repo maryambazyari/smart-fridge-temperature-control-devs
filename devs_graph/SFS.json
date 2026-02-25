@@ -1,0 +1,17 @@
+{ "class": "GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+{"text":"FCS","figure":"Rectangle","size":"90 65","fill":"orange","key":-1,"loc":"-50 -40","group":-5},
+{"text":"disturbance_in","figure":"Rectangle","size":"90 65","fill":"orange","key":-2,"loc":"-300 -40","group":-5},
+{"text":"status_out","figure":"Square","size":"62 65","fill":"pink","key":-3,"loc":"150 -100","group":-5},
+{"text":"temp_out","figure":"Square","size":"62 65","fill":"pink","key":-4,"loc":"150 30","group":-5},
+{"text":"SmartFridgeSystem","isGroup":true,"color":"black","I":[],"O":[],"key":-5}
+],
+  "linkDataArray": [
+{"points":[-255,-40,-245,-40,-175,-40,-175,-40,-105,-40,-95,-40],"color":"black","from":-2,"to":-1,"fromPort":"R","toPort":"L","label":"disturbance_in"},
+{"points":[-50,-72.5,-50,-82.5,-50,-100,29.5,-100,109,-100,119,-100],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-1,"to":-3,"fromPort":"T","toPort":"L"},
+{"points":[-50,-7.5,-50,2.5,-50,30,29.5,30,109,30,119,30],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-1,"to":-4,"fromPort":"B","toPort":"L"}
+]}

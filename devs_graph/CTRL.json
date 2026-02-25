@@ -1,0 +1,17 @@
+{ "class": "GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+{"text":"temp_in","figure":"Rectangle","size":"166 65","fill":"orange","key":-1,"loc":"-382 0"},
+{"text":"PASSIVE\nTa=inf","figure":"Ellipse","size":"85 85","fill":"white","key":-2,"loc":"-100 0"},
+{"text":"OUTPUT\nTa=0","figure":"Ellipse","size":"85 85","fill":"white","key":-3,"loc":"190 0"},
+{"text":"cmd_out","figure":"Square","size":"62 65","fill":"pink","key":-4,"loc":"400 0"}
+],
+  "linkDataArray": [
+{"points":[-299,0,-289,0,-220.75,0,-220.75,0,-152.5,0,-142.5,0],"color":"black","from":-1,"to":-2,"fromPort":"R","toPort":"L","label":"decide ON/OFF"},
+{"points":[-57.5,0,-47.5,0,45,0,45,0,137.5,0,147.5,0],"color":"black","from":-2,"to":-3,"fromPort":"R","toPort":"L","label":"command pending"},
+{"points":[232.5,0,242.5,0,300.75,0,300.75,0,359,0,369,0],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-3,"to":-4,"fromPort":"R","toPort":"L"},
+{"points":[190,-42.5,190,-52.5,190,-75.5,-100,-75.5,-100,-52.5,-100,-42.5],"dash_array":[6,3],"from":-3,"to":-2,"fromPort":"T","toPort":"T","label":"clear / wait next input"}
+]}

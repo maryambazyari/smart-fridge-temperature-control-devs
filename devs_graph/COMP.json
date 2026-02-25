@@ -1,0 +1,19 @@
+{ "class": "GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+{"text":"cmd_in","figure":"Rectangle","size":"205 65","fill":"orange","key":-1,"loc":"-402.5 0"},
+{"text":"OFF\nTa=inf","figure":"Ellipse","size":"85 85","fill":"white","key":-2,"loc":"-100 0"},
+{"text":"ON\nTa=inf","figure":"Ellipse","size":"85 85","fill":"white","key":-3,"loc":"130 0"},
+{"text":"status_out","figure":"Square","size":"62 65","fill":"pink","key":-4,"loc":"300 0"}
+],
+  "linkDataArray": [
+{"from":-1,"to":-2,"fromPort":"R","toPort":"L","points":[-300,0,-290,0,-221.25,0,-221.25,0,-152.5,0,-142.5,0],"label":"if cmd=ON"},
+{"points":[-402.5,-32.5,-402.5,-42.5,-402.5,-67.80855326312349,130,-67.80855326312349,130,-52.5,130,-42.5],"color":"black","from":-1,"to":-3,"fromPort":"T","toPort":"T","label":"if cmd=OFF"},
+{"points":[-57.5,0,-47.5,0,15,0,15,0,77.5,0,87.5,0],"color":"black","from":-2,"to":-3,"fromPort":"R","toPort":"L","label":"switch ON"},
+{"points":[130,42.5,130,52.5,130,84.06762213951394,-100,84.06762213951394,-100,52.5,-100,42.5],"color":"black","from":-3,"to":-2,"fromPort":"B","toPort":"B","label":"switch OFF"},
+{"points":[172.5,0,182.5,0,220.75,0,220.75,0,259,0,269,0],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-3,"to":-4,"fromPort":"R","toPort":"L"},
+{"points":[-100,-42.5,-100,-52.5,-100,-98.00216624620286,300,-98.00216624620286,300,-42.5,300,-32.5],"color":"red","arrow_color":"black","fill_arrow":"white","label":"","from":-2,"to":-4,"fromPort":"T","toPort":"T"}
+]}
