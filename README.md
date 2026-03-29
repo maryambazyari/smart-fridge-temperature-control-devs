@@ -45,7 +45,7 @@ Inside `cadmium_generated/`:
 ## Clone and Run
 
 ```bash
-git clone git@github.com:maryambazyari/smart-fridge-temperature-control-devs.git
+git clone https://github.com/maryambazyari/smart-fridge-temperature-control-devs.git
 cd smart-fridge-temperature-control-devs
 chmod +x scripts/run_simulation.sh
 ./scripts/run_simulation.sh
