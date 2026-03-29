@@ -20,16 +20,17 @@ The system is organized hierarchically and includes:
 ## Repository Structure
 
 - `cadmium_generated/` : Cadmium C++ source files and CMake build configuration
-- `cadmium_generated/simulation_results/` : simulation output log(s)
+- `cadmium_generated/simulation_results/` : simulation output log
 - `devs_graph/` : DEVS-Graph JSON model files
-- `docs/` : final report document
-- `screenshots/` : DEVS-Graph screenshots (and optional build/run screenshots)
-- `scripts/` : helper scripts to build and run the simulation
+- `docs/` : final report and DEVS model form
+- `screenshots/` : screenshots of DEVS-Graph models
+- `scripts/` : helper script to build and run the simulation
+- `external/` : local copy of required dependencies
 - `README.md` : project instructions and notes
 
 ---
 
-## Core Files (Cadmium Implementation)
+## Core Files
 
 Inside `cadmium_generated/`:
 - `TempSensor.hpp`
@@ -41,25 +42,27 @@ Inside `cadmium_generated/`:
 
 ---
 
-## Build and Run (MSYS2 UCRT64)
+## Clone and Run
 
-### Manual commands (used in development)
 ```bash
-cd cadmium_generated
-rm -rf build
-mkdir build
-cd build
-/c/msys64/ucrt64/bin/cmake.exe -G "MinGW Makefiles" ..
-mingw32-make -j1
-./smart_fridge.exe
+git clone git@github.com:maryambazyari/smart-fridge-temperature-control-devs.git
+cd smart-fridge-temperature-control-devs
+chmod +x scripts/run_simulation.sh
+./scripts/run_simulation.sh
+```
 
+The script automatically:
+- checks the required folders
+- prepares Boost headers if needed
+- builds the project
+- runs the simulation
+- saves the output log
 
-## Input / Parameters
-This baseline smart fridge simulation does not require external input files.
-The initial temperature, hysteresis thresholds, and warming/cooling rates are defined in `cadmium_generated/main.cpp` and the model header files.
+---
 
 ## Output
-A sample simulation execution log is included at:
+
+The simulation output is saved in:
 
 `cadmium_generated/simulation_results/simulation_result.txt`
 
@@ -68,7 +71,19 @@ The output log contains atomic model state traces for:
 - Controller (CTRL)
 - Compressor (COMP)
 
-## Run Scripts
-Scripts are included for reproducibility:
-- `scripts/run_simulation.bat` (Windows)
-- `scripts/run_simulation.sh` (Git Bash / MSYS2 / Unix-like shell)
+---
+
+## Input / Parameters
+
+This baseline smart fridge simulation does not require external input files.
+
+The initial temperature, hysteresis thresholds, and warming/cooling rates are defined in:
+- `cadmium_generated/main.cpp`
+- the atomic model header files
+
+---
+
+## Notes
+
+This repository contains the generated Cadmium implementation, DEVS-Graph model files, screenshots, simulation output, and final documentation for the Smart Fridge Temperature Control DEVS assignment.
+
